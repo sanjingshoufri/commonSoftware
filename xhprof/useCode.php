@@ -9,6 +9,9 @@ $xhprof_runs = new XHProfRuns_Default();
 
 // 导出性能分析数据，默认xhprof.output_dir指定的目录
 $run_id = $xhprof_runs->save_run($xhprof_data, 'xhprof');
+$xhprof_runs = new XHProfRuns_Default();
+$run_id = $xhprof_runs->save_run($xhprof_data, "xhprof_testing");
+
 
 // 关闭xhprof.
 $xhprof_data = xhprof_disable();

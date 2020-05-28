@@ -18,3 +18,7 @@ win下没有成功，Linux下一条指令就成功.
 # 相关参数
 - CPU时间，用户空间的CPU时间 + 内核空间的CPU时间
 - 
+
+# graphviz输出参数
+- Incl. CPU(microsecs):方法执行花费的CPU时间，包括子方法的执行时间.
+- Excl. CPU(microsec):方法本身执行花费的CPU时间，不包括子方法的执行时间.
